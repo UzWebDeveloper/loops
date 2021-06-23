@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300;400;500;600;700;800;900&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #C9F8FE;
+}
+.continer{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+    
+}
+.card{
+  width: 900px;
+  display: flex;
+  background-color:white;
+}
+.card-left{
+  width: 380px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.310),rgba(0, 0, 0, 0.310) ) , url(./img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crad-left__center{
+  font-family: sans-serif;
+}
+.card-left__title{
+  color: white;
+  font-size: 27px;
+}
+.card-left__subtitle{
+  color: white;
+  padding-top: 10px;
+  font-size: 17px;
+}
+.card-left__button{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px ;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(141, 216, 141, 0.618);
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.button-img{
+  width: 20px;
+}
+.button-text{
+  color: white;
+  padding-left: 5px;
+}
+
+
+.card-right{
+font-family: sans-serif;
+width: 500px;
+
+}
+.card-right__header{
+ display: flex;
+ justify-content: space-between;
+ font-family: sans-serif;
+ margin-top: 40px;
+}
+.header-title{
+  padding-left: 40px;
+  font-weight: 550;
+}
+.header-img{
+  padding-right: 35px;
+}
+.card-right__years{
+  display: flex; 
+  margin-top: 35px;
+  margin-left: 40px;
+}
+.years-text__blond{
+  font-size: 19px;
+  cursor: pointer;
+}
+.years-text{
+  font-size: 19px;
+  margin-left: 15px;
+  color: #C2C2C2;
+  cursor: pointer;
+}
+
+.card-right__body{
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.body-content{
+  display: flex;
+  margin-top: 25px;
+}
+.body-content__profil{
+  border-radius: 50px;
+}
+.content-img{
+  width: 40px;
+  border-radius: 50px;
+}
+.body-content__text{
+  width: 280px;
+  padding-top: 11px;
+  padding-left: 20px;
+}
+.content-text{
+  font-size: 14px;
+  
+}
+.body-content__date{
+  font-weight: 1;
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 40px;
+}
+.content-date{
+  font-size: 40px;
+ 
+}
+.body-content__monthyear{
+  padding-top: 7px;
+  padding-left: 5px;
+  font-size: 14px;
+}

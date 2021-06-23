@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(rgba(255, 255, 255, 0.000),rgba(255, 255, 255, 0.000) ) ,url(./img/background.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.box{
+  width: 450px;
+  height: 400px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  font-family: sans-serif;
+}
+img{
+  width: 75px;
+  margin-left: 20px;
+}
+.box-table{  
+  border-collapse: collapse;
+    width: 100%;  
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .hover:hover{
+    background-color: rgba(110, 110, 110, 0.247);
+    transition: all .3s ease;
+}
+  .button{
+    width: 450px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: steelblue;
+    color: white;
+    font-size: 20px;
+    transition: all .3s ease;
+    cursor: pointer;
+    outline: none;
+  }
+  .button:hover{
+    background-color: rgb(26, 110, 179);
+    transition: all .3s ease;
+  }
+  .dot{
+    font-size: 16px;
+    color: #cdcdcd;
+    margin-top: 10px;
+  }
+  .dot-blond{
+    font-size: 18px;
+    color: #AAAAAA;
+  }
+  .check{
+    width: 30px;
+  }
+  .card-name{
+    color: gray;
+  }
+  
